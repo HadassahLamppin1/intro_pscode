@@ -2,3 +2,21 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+START
+//initialize variables here
+INPUT Int
+OUTPUT Int
+While (1) 
+{
+Generate random number between 1 and 10  = OUTPUT
+Print(“guess random number between 1 and 10 number: (INPUT variable)“) 
+IF INPUT is between 1 and 10
+		If OUTPUT = INPUT 
+		Print(“correct! You won the game”) 
+		End while loop with a break statement
+		ELSE 
+		Print(“not correct, try again a new number will be generated”)
+ELSE
+Printf(“ not within the limits of this exercise, try again , a new number will be generated”). 
+} 
+END
