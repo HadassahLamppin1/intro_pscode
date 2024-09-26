@@ -1,4 +1,30 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+START
+//initialize variables and functions here
+X int;
+Y int;
+customer_location (x, y);
+Final_location (x, y);
+North(1,0);
+South(0,-1);
+East(1,0);
+West(-1,0);
+While (customer_location != final_location)
+{
+	Add North to customer location 
+	If customer location hits obstacle 
+Change customer location back to what it was before obstacle & add East to customer location
+if customer location hits obstacle
+change customer location back before obstacle & add west to customer location
+			if customer hits obstacle
+change customer location back before obstacle & add south to customer location
+			else
+				add west to customer location		
+else 
+		Add East to customer location 
+	Else
+		Add North to customer location
+} // while loop will end once customer location is at final location
 
