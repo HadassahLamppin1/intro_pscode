@@ -2,3 +2,14 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+START
+While case is not full
+{
+For (i=2 ; i <= 50; i + 2) //for loop to start at 2 and then iterate for every 2 until 50 since that is the max
+{ 
+	Print this is how many products have been counted so far = i;
+End for loop
+}
+Print we cannot fit any more product packages into this case.
+}
+// end while loop
